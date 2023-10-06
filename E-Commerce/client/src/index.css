@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+/* Navbar CSS */
+.navbar
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height:26px ;
+  
+  text-transform: uppercase;
+  box-shadow:  0 8px 6px -6px gray;
+  --webkit-box-shadow :0 8px 6px -6px gray;
+  border-bottom: 0px solid gray !important;
+}
+.nav-link
+{
+  font-weight: normal !important;
+}
+.nav-link:hover
+{
+  color: red;
+}
+
+.active
+{
+  border-bottom:  2px solid black;
+
+}
+.active:checked
+{
+  color: green;
+}
+
+.navbar-brand
+{
+font-weight: 700;
+font-family: 'robot';
+}
+
+/* Footer */
+.footer
+{
+  color:white;
+  padding: 25px;
+  background:#000000;
+  background: -webkit-linear-gradient(to right , #434343,#000000);
+  background: linear-gradient(to right, #434343,#000000,#434343);
+
+}
+.footer a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+
+}
+.footer a:hover
+{
+  color:  #ffefba;
+  border-bottom:1px solid #ffefba ;
+}
+.contactus
+{
+  margin: 0;
+  padding:0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.pad
+{
+  padding: 2px;
+  margin-left: 6px;
+  font-weight: bolder;
+}
+.row2
+{
+  border: 0px double black;
+  box-shadow: -3px 8px 8px black, 4px 10px 6px gray ;
+  padding: 1px;
+}
+
+/****************************
+**********REGISTER***********
+*****************************/
